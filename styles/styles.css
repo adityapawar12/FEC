@@ -1,0 +1,129 @@
+/* - Orange: hsl(25, 97%, 53%) */
+/*  */
+/* ### Neutral */
+/*  */
+/* - White: hsl(0, 0%, 100%) */
+/* - Light Grey: hsl(217, 12%, 63%) */
+/* - Medium Grey: hsl(216, 12%, 54%) */
+/* - Dark Blue: hsl(213, 19%, 18%) */
+/* - Very Dark Blue: hsl(216, 12%, 8%) */
+
+body, html{
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+/* .main-container { */
+/*   display: flex; */
+/*   justify-content: center; */
+/*   align-items: center; */
+/*   background-color: hsl(213, 19%, 18%); */
+/* } */
+
+.main-container {
+  position: absolute;
+  width: 24%;
+  height: fit-content;
+  padding: 2rem 2rem;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: hsl(216, 20%, 16%);
+  border: 0;
+  border-radius: 20px;
+}
+
+.star-container {
+    margin: 0 0 2rem 0;
+}
+
+.star-img {
+    vertical-align: middle;
+    display: inline-block;
+    border: 0rem white solid;
+    padding: 1rem;
+    background-color: hsl(216deg 12% 54% / 17%);
+    border-radius: 45px;
+}
+
+.heading-container {
+    margin: 1.5rem 0 1rem 0;
+}
+
+.main-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.message-container {
+    margin: 0rem 0 1.5rem 0;
+}
+
+.message {
+    font-weight: 400;
+    color: hsl(216, 12%, 54%);
+    /* color: hsl(217, 12%, 63%); */
+    margin: 0;
+    padding: 0;
+}
+
+.rating-container {
+    margin: 0.5rem 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-num {
+    text-align: center;
+    display: inline-block;
+    border: 0rem white solid;
+    width: 4%;
+    padding: 0.8rem 1rem;
+    /* margin: 1rem; */
+    /* padding: 0; */
+    background-color: hsl(216deg 12% 54% / 17%);
+    cursor: pointer;
+    color: hsl(216, 12%, 54%);
+    border-radius: 45px;
+    margin: 0;
+}
+
+.rating-num:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%); 
+}
+
+.submit-container {
+    margin: 2rem 0 0 0;
+}
+
+.submit-button {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 0.7rem 0;
+    border: 0;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%); 
+}
+
+.submit-button:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%); 
+}
