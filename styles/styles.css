@@ -127,3 +127,126 @@ body, html{
     color: hsl(25, 97%, 53%);
     background-color: hsl(0, 0%, 100%); 
 }
+
+.thank-you-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.phone-img {
+    padding: 1rem 0rem;
+    margin: 0 auto;
+}
+
+.rating-info {
+    display: inline-block;
+    background-color: #293640;
+    padding: 0.3rem 1rem;
+    border-radius: 14px;
+    margin: 1rem auto;
+    color: #fc7614;
+    width: fit-content;
+}
+
+.ty-bold {
+    margin: 0;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.ty-text {
+    color: white;
+}
+
+@media only screen and (max-width: 4500px) {
+
+    .main-container {
+      width: 10%;
+      padding: 2rem 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 3400px) {
+
+    .main-container {
+      width: 12%;
+      padding: 2rem 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 2050px) {
+
+    .main-container {
+      width: 15%;
+      padding: 2rem 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 1760px) {
+
+    .main-container {
+      width: 20%;
+      padding: 2rem 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .main-container {
+      width: 20%;
+      padding: 2rem 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .main-container {
+      width: 25%;
+      padding: 2rem 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .main-container {
+      width: 35%;
+      padding: 2rem 2rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .main-container {
+      width: 45%;
+      padding: 2rem 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .main-container {
+      width: 60%;
+      padding: 2rem 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 370px) {
+
+    .main-container {
+      width: 70%;
+      padding: 2rem 2rem;
+    }
+
+}

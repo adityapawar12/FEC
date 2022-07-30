@@ -1,5 +1,7 @@
 let rating;
 
+document.getElementById("secondSection").style.visibility = "hidden";
+
 function onRatingSelect(ratingNum) {
     rating = ratingNum;
     let ratingDivs = document.getElementsByClassName('rating-num');
@@ -11,8 +13,15 @@ function onRatingSelect(ratingNum) {
 
 function onRatingSubmit() {
     if(rating !== undefined) {
-        console.log('click', rating);
+        getPage(rating);
     } else {
-        console.log('select rating');
+        alert('Select rating');
     }
+}
+
+function getPage(val) {
+    document.getElementById("firstSection").style.visibility = "hidden";
+    document.getElementById("secondSection").style.visibility = "visible";
+    document.getElementById("ratingText").innerText = `You selected ${rating} out of 5`;
+
 }

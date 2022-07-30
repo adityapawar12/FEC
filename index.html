@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/styles.css">
 
-  <script src="./js/index.js"></script>
+  <!-- <script src="./js/index.js"></script> -->
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -23,7 +23,7 @@
 </head>
 <body>
 
-  <div class="main-container">
+  <div id="firstSection" class="main-container">
     <div class="star-container">
       <img class="star-img" src="./images/icon-star.svg" alt="star">
     </div>
@@ -50,6 +50,16 @@
     </div>
   </div>
 
+  <div id="secondSection" class="main-container thank-you-container">
+    <img class="phone-img" src="./images/illustration-thank-you.svg" alt="thank you">
+    <p class="rating-info" id="ratingText"></p>
+    <h3 class="ty-bold">Thank you!</h3>
+    <p class="ty-text">
+      We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch!
+    </p>
+  </div>
+
   <!-- [> Rating state start <] -->
   <!--  -->
   <!-- How did we do? -->
@@ -69,7 +79,7 @@
   <!--  -->
   <!-- Thank you! -->
   <!--  -->
-  <!-- We appreciate you taking the time to give a rating. If you ever need more support,  -->
+  <!-- We appreciate you taking the time to give a rating. If you ever need more support, -->
   <!-- don’t hesitate to get in touch! -->
   <!--  -->
   <!-- [> Thank you state end <] -->
@@ -79,5 +89,8 @@
   <!--   Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.  -->
   <!--   Coded by <a href="#">Your Name Here</a>. -->
   <!-- </div> -->
+
+  <script src="./js/index.js"></script>
+
 </body>
 </html>
