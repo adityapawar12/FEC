@@ -13,21 +13,64 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
-
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="main-container">
+    <article class="card">
+      <div class="card__header">
+        <figure class="card__figure">
+          <img src="./images/image-equilibrium.jpg" onMouseOver="showEye()" onMouseLeave="hideEye()" id="equilibrium" alt="Equilibrium" class="card__image-equilibrium">
+          <img src="./images/icon-view.svg" id="eye" class="card__image-eye" alt="view eye">
+        </figure>
+      </div>
+      <div class="card__body">
+        <h2 class="card__title">Equilibrium #3429</h2>
+        <p class="card__subtitle">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="card__extrainfo">
+          <p class="card__extrainfo-left">
+            <span><img class="card__extrainfo-leftIcon" src="./images/icon-ethereum.svg" alt="ethereum"></span>0.041 ETH
+          </p>  
+          <p class="card__extrainfo-right">
+            <span><img class="card__extrainfo-rightIcon" src="./images/icon-clock.svg" alt="clock"></span>3 days left
+          </p>
+        </div>
+        <hr class="card__divider" />
+      </div>
+      <footer class="card__footer">
+          <img src="./images/image-avatar.png" class="card__image-avatar" alt="avatar">
+          <p class="card__footer-creatorText">Creation of <span class="card__footer-creatorName">Jules Wyvern</span></p>
+      </footer>
+    </article>
   </div>
+
+  <script>
+    console.log(document.getElementById('eye'));
+    function showEye() {
+        document.getElementById('eye').style.display = "block";
+        document.getElementById('eye').style.visibility = "visible";
+    }
+
+    function hideEye() {
+        document.getElementById('eye').style.display = "block";
+        document.getElementById('eye').style.visibility = "hidden";
+    }
+  </script>
+  <!-- Equilibrium #3429 -->
+  <!--  -->
+  <!-- Our Equilibrium collection promotes balance and calm. -->
+  <!--  -->
+  <!-- 0.041 ETH -->
+  <!-- 3 days left -->
+  <!--  -->
+  <!-- Creation of Jules Wyvern -->
+  <!--  -->
+  <!-- <div class="attribution"> -->
+  <!--   Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.  -->
+  <!--   Coded by <a href="#">Your Name Here</a>. -->
+  <!-- </div> -->
 </body>
 </html>
