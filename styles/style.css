@@ -1,0 +1,108 @@
+/* ### Primary */
+/*  */
+/* - Pale blue: hsl(225, 100%, 94%) */
+/* - Bright blue: hsl(245, 75%, 52%) */
+/*  */
+/* ### Neutral */
+/*  */
+/* - Very pale blue: hsl(225, 100%, 98%) */
+/* - Desaturated blue: hsl(224, 23%, 55%) */
+/* - Dark blue: hsl(223, 47%, 23%) */
+/*  */
+/* ## Typography */
+/*  */
+/* ### Body Copy */
+/*  */
+/* - Font size (paragraph): 16px */
+/*  */
+/* ### Font */
+/*  */
+/* - Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display) */
+/* - Weights: 500, 700, 900 */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(225, 100%, 94%);
+    height:100%;
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+.card__container {
+    /* background: url(../images/pattern-background-desktop.svg) no-repeat 100% -100%; */
+    /* background-attachment: sticky; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    width: 30%;
+    border: 0 solid;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card__header {}
+
+.card__figure-header {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    border-radius: 15px 15px 0 0;
+}
+
+.card__image-dance {
+    padding: 0;
+    margin: 0;
+    display:block;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    height: 100%;
+}
+
+.card__body {}
+
+.card__title {
+    margin: 0;
+    padding: 2.5rem 0 0rem 0;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.card__content {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: hsl(224, 23%, 55%); 
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0 1.5rem 0;
+}
+
+.card__box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    margin: 0 2rem 1rem 2rem;
+}
+
+.card__box-names {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.card_box-link {
+    justify-self: flex-end;
+}
